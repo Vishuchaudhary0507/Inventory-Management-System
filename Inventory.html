@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inventory Management System</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <style>
+    /* Add custom styles here */
+  </style>
+</head>
+<body>
+
+<div class="container mt-5">
+  <h1>Inventory Management System</h1>
+  <hr>
+
+  <!-- Product Catalog -->
+  <h2>Product Catalog</h2>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>SKU</th>
+        <th>Product Name</th>
+        <th>Description</th>
+        <th>Price</th>
+        <th>Quantity</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Sample product data -->
+      <tr>
+        <td>SKU001</td>
+        <td>Product 1</td>
+        <td>Description 1</td>
+        <td>$10.00</td>
+        <td>100</td>
+      </tr>
+      <tr>
+        <td>SKU002</td>
+        <td>Product 2</td>
+        <td>Description 2</td>
+        <td>$20.00</td>
+        <td>50</td>
+      </tr>
+      <!-- Add more products here -->
+    </tbody>
+  </table>
+
+  <!-- Low Stock Alerts -->
+  <h2>Low Stock Alerts</h2>
+  <div class="alert alert-warning" role="alert">
+    <strong>Warning!</strong> Product 2 is running low in stock. Only 10 items left.
+  </div>
+  <!-- Add more alerts here if needed -->
+
+</div>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
